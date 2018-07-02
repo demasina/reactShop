@@ -1,0 +1,32 @@
+// ------ MIXIN ------ 
+
+.transition (@property: ease, @duration: 0.3s) {
+	transition: @property @duration;
+}
+
+// ------ MAIN PAGE ------ 
+
+header {
+	.logo {
+		display: block;
+		padding: 10px 15px;
+	}
+
+	nav {		
+		padding: 10px 15px;
+
+		a {
+			margin-left: 10px;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+
+
+// ------ LOGIN PAGE ------ 
+
